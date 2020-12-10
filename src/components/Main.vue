@@ -70,7 +70,7 @@ export default {
         font-size: 100px;
         font-weight: bold;
         color: white;
-        background-color: #2196F3;
+        background-color: #1A237E;
     }
 
     .v-application--wrap {

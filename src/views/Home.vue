@@ -19,7 +19,7 @@
             <div class="text-center pb-10 px-1">
                 <v-btn
                     x-large
-                    color="#2196F3"
+                    color="#1A237E"
                     outlined
                     to="/about"
                     class="mx-4 my-2">
@@ -27,7 +27,7 @@
                 </v-btn>
                 <v-btn
                     x-large
-                    color="#2196F3"
+                    color="#1A237E"
                     outlined
                     to="/skill"
                     class="mx-4 my-2">
@@ -35,7 +35,7 @@
                 </v-btn>
                 <v-btn
                     x-large
-                    color="#2196F3"
+                    color="#1A237E"
                     outlined
                     to="/work"
                     class="mx-4 my-2">

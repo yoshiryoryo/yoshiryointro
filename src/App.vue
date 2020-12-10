@@ -1,6 +1,7 @@
 <template>
 
     <v-app>
+      
       <div>
         <v-app-bar  color="blue" dense dark>
          <v-toolbar-title>MY PORTFORIO</v-toolbar-title>
@@ -86,4 +87,5 @@ export default {
   })
 }
 </script>
+
 
