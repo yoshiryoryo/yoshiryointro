@@ -6,7 +6,6 @@
         justify="center"
         align-content="center">
         <v-col
-        cols=""
         xs="7"
         sm="10"
         md="10"
@@ -68,7 +67,7 @@
         </v-col>
         </v-row>
 
-        <div class="text-center" pb-6 px-5>
+        <div class="text-center" pb-7 px-5>
             <v-btn
              x-large
              color="#2196F3"

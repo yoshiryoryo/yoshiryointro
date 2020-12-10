@@ -31,8 +31,8 @@ export default {
   mounted() {
     new Typed("#introduction", {
       stringsElement: "#typed-strings",
-      startDelay: 1000,
-      backSpeed: 30,
+      startDelay: 500,
+      backSpeed: 100,
       typeSpeed: 100,
       loop: false,
       showCursor: false
@@ -62,6 +62,7 @@ export default {
         width: auto;
         height: auto;
         border-radius: 8px 8px 0 0;
+        min-height: 450px;
         margin: auto;
         position: relative;
         animation-name: my-fade-in;
@@ -70,6 +71,10 @@ export default {
         font-weight: bold;
         color: white;
         background-color: #2196F3;
+    }
+
+    .v-application--wrap {
+        min-height: 100%;
     }
 
 </style>

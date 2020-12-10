@@ -1,13 +1,27 @@
 
 <template>
-    <v-app>   
+    <v-container
+    py-6
+    px-10>
+        <v-row
+        justify="center"
+        align-content="center">
+        <v-col
+        xs="7"
+        sm="10"
+        md="10"
+        lg="10"
+        offset-xl="1">
             <Main />
-            <div class="text-center pb-6 px-1">
+            </v-col>
+            
+        <template>
+            <div class="text-center pb-10 px-1">
                 <v-btn
                     x-large
                     color="#2196F3"
                     rounded
-                    to="/About"
+                    to="/about"
                     class="mx-4 my-2">
                     about me
                 </v-btn>
@@ -15,7 +29,7 @@
                     x-large
                     color="#2196F3"
                     rounded
-                    to="/Skill"
+                    to="/skill"
                     class="mx-4 my-2">
                      skill
                 </v-btn>
@@ -23,12 +37,15 @@
                     x-large
                     color="#2196F3"
                     rounded
-                    to="/Work"
+                    to="/work"
                     class="mx-4 my-2">
                      works
                 </v-btn>
             </div>
-    </v-app>
+        </template>
+            
+        </v-row>
+    </v-container>
 </template>
 
 <script>
