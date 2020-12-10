@@ -71,7 +71,7 @@
             <v-btn
              x-large
              color="#2196F3"
-             rounded
+             outlined
              to="/"
              class="mx-4 my-2"
             >

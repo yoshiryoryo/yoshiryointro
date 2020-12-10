@@ -108,11 +108,11 @@
  </template>
  </v-row>
 
-         <div class="text-center pt-6 pb-2 px-5">
+         <div class="text-center pt-5 pb-2 px-5">
             <v-btn
              x-large
              color="#2196F3"
-             rounded
+             outlined
              to="/"
              class="mx-4 my-2"
             >

@@ -20,7 +20,7 @@
                 <v-btn
                     x-large
                     color="#2196F3"
-                    rounded
+                    outlined
                     to="/about"
                     class="mx-4 my-2">
                     about me
@@ -28,7 +28,7 @@
                 <v-btn
                     x-large
                     color="#2196F3"
-                    rounded
+                    outlined
                     to="/skill"
                     class="mx-4 my-2">
                      skill
@@ -36,7 +36,7 @@
                 <v-btn
                     x-large
                     color="#2196F3"
-                    rounded
+                    outlined
                     to="/work"
                     class="mx-4 my-2">
                      works
