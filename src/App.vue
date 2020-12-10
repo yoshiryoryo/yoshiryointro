@@ -5,6 +5,43 @@
         <v-app-bar  color="blue" dense dark>
          <v-toolbar-title>MY PORTFORIO</v-toolbar-title>
          <v-spacer></v-spacer>
+      <v-btn
+      class="mx-2"
+      fab
+      small
+      color="#1A237E"
+      to="/about"
+    >
+      <v-icon dark>
+        mdi-account
+      </v-icon>
+    </v-btn>
+
+    <v-btn
+      class="mx-2"
+      fab
+      dark
+      small
+      color="#1A237E"
+      to="skill"
+    >
+      <v-icon dark>
+        mdi-xml
+      </v-icon>
+    </v-btn>
+
+    <v-btn
+      class="mx-2"
+      fab
+      dark
+      small
+      color="#1A237E"
+      to="work"
+    >
+      <v-icon dark>
+        mdi-laptop-chromebook
+      </v-icon>
+    </v-btn>
         </v-app-bar>
       </div>
 
@@ -54,3 +91,4 @@ export default {
   })
 }
 </script>
+
