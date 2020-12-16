@@ -1,16 +1,17 @@
 <template>
 
-    <v-app>
+    <v-app :style="{ background: $vuetify.theme.themes.light.background, color: $vuetify.theme.themes.light.color }" 
+    >
       
       <div>
-        <v-app-bar  color="blue" dense dark>
-         <v-toolbar-title>MY PORTFORIO</v-toolbar-title>
+        <v-app-bar color="#1A237E">
+         <v-toolbar-title class="pt-4"><p>MY PORTFORIO</p></v-toolbar-title>
          <v-spacer></v-spacer>
       <v-btn
       class="mx-2"
       fab
       small
-      color="#1A237E"
+      color="#7cfc00"
       to="/about"
     >
       <v-icon dark>
@@ -21,9 +22,8 @@
     <v-btn
       class="mx-2"
       fab
-      dark
       small
-      color="#1A237E"
+      color="#7cfc00"
       to="skill"
     >
       <v-icon dark>
@@ -34,9 +34,8 @@
     <v-btn
       class="mx-2"
       fab
-      dark
       small
-      color="#1A237E"
+      color="#7cfc00"
       to="work"
     >
       <v-icon dark>
@@ -47,37 +46,17 @@
       </div>
 
         <router-view />
-        
-     <v-footer
-    dark
-    padless
-    >
-    <v-card
-      class="flex"
-      flat
-      tile
-    >
-      <v-card-title class="blue" dense dark>
-        <strong class="subheading">Get connected with me!</strong>
 
-        <v-spacer></v-spacer>
-
-       <v-icon>mdi-email-multiple-outline</v-icon>  <span>19920629@gmail.com</span>
-
-
-        
-      </v-card-title>
-
-      <v-card-text class="py-2 white--text text-center">
-        {{ new Date().getFullYear() }} — <strong>MY PORTFOLIO</strong>
-      </v-card-text>
-    </v-card>
-  </v-footer>
+      <div>
+        <v-app-bar color="#1A237E">
+        </v-app-bar>
+      </div>
     </v-app>
     
 </template>
 
 <script>
+
 export default {
   data: () => ({
     links: [
@@ -87,5 +66,12 @@ export default {
   })
 }
 </script>
+
+<style> 
+ p {
+   color: #7cfc00;
+ }
+  
+</style>
 
 

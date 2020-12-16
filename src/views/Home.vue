@@ -2,7 +2,9 @@
 <template>
     <v-container
     py-6
-    px-10>
+    px-10
+    mt-5
+    >
         <v-row
         justify="center"
         align-content="center">

@@ -69,7 +69,7 @@ export default {
         animation-duration: 4s;
         font-size: 100px;
         font-weight: bold;
-        color: white;
+        color: #7cfc00;
         background-color: #1A237E;
     }
 

@@ -1,7 +1,9 @@
 <template>
     <v-container
     py-6
-    px-10>
+    px-10
+    mt-5
+    >
         <v-row
         justify="center"
         align-content="center">
@@ -169,7 +171,7 @@
        <div class="text-center pb-7 px-5">
             <v-btn
              x-large
-             color="#2196F3"
+             color="#1A237E"
              outlined
              to="/"
              class="mx-4 my-2"

@@ -1,7 +1,9 @@
 <template>
     <v-container
     py-6
-    px-10>
+    px-10
+    pt-12
+    >
         <v-row
         justify="center"
         align-content="center">
@@ -29,7 +31,7 @@
                     slot-scope="{hover}"
                     class="text-xs-center ma-4"
                     :class="`elevation-${hover ? 12 : 4}`"
-                    color="#2196F3"
+                    color="#1A237E"
                 >
                 <v-card-title>
                     <div class="mx-auto">
@@ -70,7 +72,7 @@
         <div class="text-center" pb-7 px-5>
             <v-btn
              x-large
-             color="#2196F3"
+             color="#1A237E"
              outlined
              to="/"
              class="mx-4 my-2"
@@ -90,7 +92,7 @@ export default {
                     title: "HTML/CSS",
                     value: 0,
                     absoluteValue: 70,
-                    color: "#E3F2FD",
+                    color: "#7cfc00",
                     icon: "",
                     show: false,
                 },
@@ -98,7 +100,7 @@ export default {
                     title: "JavaScript",
                     value: 0,
                     absoluteValue: 50,
-                    color: "#E3F2FD",
+                    color: "#7cfc00",
                     icon: "",
                     show: false 
                 },
@@ -106,7 +108,7 @@ export default {
                     title: "Vue.js",
                     value: 0,
                     absoluteValue: 70,
-                    color: "#E3F2FD",
+                    color: "#7cfc00",
                     icon: "",
                     show: false 
                 },
@@ -114,7 +116,7 @@ export default {
                     title: "PHP",
                     value: 0,
                     absoluteValue: 40,
-                    color: "#E3F2FD",
+                    color: "#7cfc00",
                     icon: "",
                     show: false 
                 },
@@ -122,7 +124,7 @@ export default {
                     title: "Laravel",
                     value: 0,
                     absoluteValue: 60,
-                    color: "#E3F2FD",
+                    color: "#7cfc00",
                     icon: "",
                     show: false 
                 },
@@ -130,7 +132,7 @@ export default {
                     title: "Docker",
                     value: 0,
                     absoluteValue: 50,
-                    color: "#E3F2FD",
+                    color: "#7cfc00",
                     icon: "",
                     show: false 
                 },
@@ -138,7 +140,7 @@ export default {
                     title: "Fishing",
                     value: 0,
                     absoluteValue: 100,
-                    color: "#E3F2FD",
+                    color: "#7cfc00",
                     icon: "",
                     show: false 
                 },
@@ -146,7 +148,7 @@ export default {
                     title: "Camp",
                     value: 0,
                     absoluteValue: 100,
-                    color: "#E3F2FD",
+                    color: "#7cfc00",
                     icon: "",
                     show: false 
                 },
@@ -180,5 +182,9 @@ export default {
     h1 {
         font-size: 100px;
         text-align: center;
+        color: #1A237E;
+    }
+    .headline {
+        color: #7cfc00;
     }
 </style>
