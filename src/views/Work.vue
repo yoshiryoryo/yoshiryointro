@@ -27,9 +27,9 @@
     color="#204969"
   >
     <v-img
-      class="white--text align-end"
+      class="black--text align-end"
       height="180px"
-      src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+      src="../assets/キャプチャ.jpg"
     >
       <v-card-title>掲示板アプリ</v-card-title>
     </v-img>
