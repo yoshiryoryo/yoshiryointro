@@ -24,10 +24,11 @@
   <v-card
     class="mx-auto"
     max-width="400"
+    color="#204969"
   >
     <v-img
       class="white--text align-end"
-      height="200px"
+      height="180px"
       src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
     >
       <v-card-title>掲示板アプリ</v-card-title>
@@ -36,21 +37,20 @@
     <v-card-subtitle class="pb-0">
     </v-card-subtitle>
 
-    <v-card-text class="text--primary">
-      <div>構成要素: Docker, Laravel</div>
-
-      <div>DockerでLaravel環境を構築し、作成した。</div>
-      <div>MVCモデルの理解や,Route設定など基礎を抑えるのに大変良い学習になった。
-      <div>migrateで結構つまずいたので、ここはしっかり復習して学習を深めていきたい。</div>
-      </div>
+    <v-card-text class="pb-1">
+      <p>構成要素: Docker, Laravel</p>
+      <p>DockerでLaravel環境を構築し、作成した。</p>
+      <p>MVCモデルの理解や,Route設定など基礎を抑えるのに大変良い学習になった。
+      <br>migrateで結構つまずいたので、ここはしっかり復習して学習を深めていきたい。
+      </p>
     </v-card-text>
 
-    <v-card-actions>
+    <v-card-actions class="pt-1 pb-1">
       <v-btn
         color="green"
         text
       >
-        Jamp
+        Jump
       </v-btn>
 
       <v-btn
@@ -58,7 +58,7 @@
        text
       >
       <a href="https://github.com/yoshiryoryo/keijiban">
-        souce code
+        source code
         </a>
       </v-btn>
 
@@ -68,10 +68,11 @@
   <v-card
     class="mx-auto"
     max-width="400"
+    color="#204969"
   >
     <v-img
       class="white--text align-end"
-      height="200px"
+      height="180px"
       src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
     >
       <v-card-title>写真投稿アプリ</v-card-title>
@@ -80,20 +81,20 @@
     <v-card-subtitle class="pb-0">
     </v-card-subtitle>
 
-    <v-card-text class="text--primary">
-      <div>構成要素: Docker, Laravel, Vue.js</div>
+    <v-card-text class="pb-1">
+      <p>構成要素: Docker, Laravel, Vue.js</p>
 
-      <div>DockerでLaravel環境を構築し、フロント部分をVue.jsで作成した。</div>
-      <div>LaravelとのMixは自分の中でうまく理解できたと感じた。</div>
-      <div>Vuexの理解が浅いので、これからの学習で重点的に取り組んでいきたい。</div>
+      <p>DockerでLaravel環境を構築し、フロント部分をVue.jsで作成した。</p>
+      <p>LaravelとのMixは自分の中でうまく理解できたと感じた。
+      <br>Vuexの理解が浅いので、これからの学習で重点的に取り組んでいきたい。</p>
     </v-card-text>
 
-    <v-card-actions>
+    <v-card-actions class="pt-0 pb-1">
       <v-btn
         color="green"
         text
       >
-        Jamp
+        Jump
       </v-btn>
 
       <v-btn
@@ -101,7 +102,7 @@
        text
       >
       <a href="https://github.com/yoshiryoryo/sakanaphoto">
-        souce code
+        source code
         </a>
       </v-btn>
 
@@ -113,7 +114,7 @@
          <div class="text-center pt-5 pb-2 px-5">
             <v-btn
              x-large
-             color="#1A237E"
+             color="#dadada"
              outlined
              to="/"
              class="mx-4 my-2"

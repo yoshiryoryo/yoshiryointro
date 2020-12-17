@@ -31,7 +31,7 @@
                     slot-scope="{hover}"
                     class="text-xs-center ma-4"
                     :class="`elevation-${hover ? 12 : 4}`"
-                    color="#1A237E"
+                    color="#FFFFFF"
                 >
                 <v-card-title>
                     <div class="mx-auto">
@@ -56,6 +56,9 @@
                                     :class="`${skill.color}--text`"
                                     class="subtitle-1"
                                     v-on="on">
+                                     <v-icon size="20">
+                                        {{ skill.icon }}
+                                     </v-icon>
                                     {{ skill.title }}
                                     </span>
                                 </template>
@@ -72,7 +75,7 @@
         <div class="text-center" pb-7 px-5>
             <v-btn
              x-large
-             color="#1A237E"
+             color="#204969"
              outlined
              to="/"
              class="mx-4 my-2"
@@ -92,64 +95,64 @@ export default {
                     title: "HTML/CSS",
                     value: 0,
                     absoluteValue: 70,
-                    color: "#7cfc00",
-                    icon: "",
+                    color: "#204969",
+                    icon: "mdi-language-html5",
                     show: false,
                 },
                 {
                     title: "JavaScript",
                     value: 0,
                     absoluteValue: 50,
-                    color: "#7cfc00",
-                    icon: "",
+                    color: "#204969",
+                    icon: "mdi-language-javascript",
                     show: false 
                 },
                 {
                     title: "Vue.js",
                     value: 0,
                     absoluteValue: 70,
-                    color: "#7cfc00",
-                    icon: "",
+                    color: "#204969",
+                    icon: "mdi-vuejs",
                     show: false 
                 },
                 {
                     title: "PHP",
                     value: 0,
                     absoluteValue: 40,
-                    color: "#7cfc00",
-                    icon: "",
+                    color: "#204969",
+                    icon: "mdi-language-php",
                     show: false 
                 },
                 {
                     title: "Laravel",
                     value: 0,
                     absoluteValue: 60,
-                    color: "#7cfc00",
-                    icon: "",
+                    color: "#204969",
+                    icon: "mdi-laravel",
                     show: false 
                 },
                 {
                     title: "Docker",
                     value: 0,
                     absoluteValue: 50,
-                    color: "#7cfc00",
-                    icon: "",
+                    color: "#204969",
+                    icon: "mdi-docker",
                     show: false 
                 },
                 {
                     title: "Fishing",
                     value: 0,
                     absoluteValue: 100,
-                    color: "#7cfc00",
-                    icon: "",
+                    color: "#204969",
+                    icon: "mdi-fish",
                     show: false 
                 },
                 {
                     title: "Camp",
                     value: 0,
                     absoluteValue: 100,
-                    color: "#7cfc00",
-                    icon: "",
+                    color: "#204969",
+                    icon: "mdi-campfire",
                     show: false 
                 },
             ],
@@ -182,9 +185,9 @@ export default {
     h1 {
         font-size: 100px;
         text-align: center;
-        color: #1A237E;
+        color: #204969;
     }
     .headline {
-        color: #7cfc00;
+        color: #204969;
     }
 </style>

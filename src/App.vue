@@ -4,17 +4,17 @@
     >
       
       <div>
-        <v-app-bar color="#1A237E">
-         <v-toolbar-title class="pt-4"><p>MY PORTFORIO</p></v-toolbar-title>
+        <v-app-bar color="#7A5930">
+         <v-toolbar-title class="pt-4"><strong><p>MY PORTFORIO</p></strong></v-toolbar-title>
          <v-spacer></v-spacer>
       <v-btn
       class="mx-2"
       fab
       small
-      color="#7cfc00"
+      color="#fff7f7"
       to="/about"
     >
-      <v-icon dark>
+      <v-icon>
         mdi-account
       </v-icon>
     </v-btn>
@@ -23,10 +23,10 @@
       class="mx-2"
       fab
       small
-      color="#7cfc00"
+      color="#fff7f7"
       to="skill"
     >
-      <v-icon dark>
+      <v-icon>
         mdi-xml
       </v-icon>
     </v-btn>
@@ -35,10 +35,10 @@
       class="mx-2"
       fab
       small
-      color="#7cfc00"
+      color="#fff7f7"
       to="work"
     >
-      <v-icon dark>
+      <v-icon>
         mdi-laptop-chromebook
       </v-icon>
     </v-btn>
@@ -48,8 +48,14 @@
         <router-view />
 
       <div>
-        <v-app-bar color="#1A237E">
-        </v-app-bar>
+        <v-app-bar color="#7A5930">
+        
+           <v-spacer></v-spacer>
+      <v-icon class="mx-2">
+        mdi-email-multiple
+      </v-icon>
+        <div class="mail">19920629ryo@gmail.com</div>
+      </v-app-bar>
       </div>
     </v-app>
     
@@ -69,7 +75,11 @@ export default {
 
 <style> 
  p {
-   color: #7cfc00;
+   color: #FFFFFF;
+ }
+
+ .mail {
+   color: #FFFFFF;
  }
   
 </style>
