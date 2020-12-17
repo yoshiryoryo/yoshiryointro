@@ -28,10 +28,10 @@
   >
     <v-img
       class="black--text align-end"
-      height="180px"
-      src="../assets/キャプチャ.jpg"
+      height="200px"
+      src="../assets/キャプチャ4.png"
     >
-      <v-card-title>掲示板アプリ</v-card-title>
+      <v-card-title class="pb-0">掲示板アプリ</v-card-title>
     </v-img>
 
     <v-card-subtitle class="pb-0">
@@ -45,7 +45,7 @@
       </p>
     </v-card-text>
 
-    <v-card-actions class="pt-1 pb-1">
+    <v-card-actions class="pt-0 pb-0">
       <v-btn
         color="green"
         text
@@ -72,10 +72,10 @@
   >
     <v-img
       class="white--text align-end"
-      height="180px"
+      height="200px"
       src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
     >
-      <v-card-title>写真投稿アプリ</v-card-title>
+      <v-card-title class="pb-0">写真投稿アプリ</v-card-title>
     </v-img>
 
     <v-card-subtitle class="pb-0">
@@ -89,7 +89,7 @@
       <br>Vuexの理解が浅いので、これからの学習で重点的に取り組んでいきたい。</p>
     </v-card-text>
 
-    <v-card-actions class="pt-0 pb-1">
+    <v-card-actions class="pt-0 pb-0">
       <v-btn
         color="green"
         text
@@ -111,7 +111,7 @@
  </template>
  </v-row>
 
-         <div class="text-center pt-5 pb-2 px-5">
+         <div class="text-center pt-2 pb-0 px-5">
             <v-btn
              x-large
              color="#204969"
