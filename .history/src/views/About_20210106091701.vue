@@ -28,7 +28,7 @@
     color="#204969"
   >
     <v-img
-      src="../assets/12797.jpg"
+      src="../assets/line_315622894972358.jpg"
       height="200px"
     ></v-img>
 

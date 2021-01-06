@@ -84,6 +84,13 @@
 
     <v-card-actions class="pt-0 pb-0">
       <v-btn
+        color="green"
+        text
+      >
+        Jump
+      </v-btn>
+
+      <v-btn
        color="blue"
        text
       >

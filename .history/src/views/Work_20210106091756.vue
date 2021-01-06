@@ -83,6 +83,8 @@
     </v-card-text>
 
     <v-card-actions class="pt-0 pb-0">
+      
+
       <v-btn
        color="blue"
        text
